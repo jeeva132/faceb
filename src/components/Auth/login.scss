@@ -1,0 +1,29 @@
+@import "../../scss/base-colors.scss";
+
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+
+  button {
+    width: 300px;
+    color: #eff2f5;
+    background-color: #c6cacf;
+    font-weight: 500;
+
+    &:hover {
+      background-color: $primaryColor;
+    }
+  }
+
+  &__logo {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      object-fit: contain;
+      height: 150px;
+    }
+  }
+}

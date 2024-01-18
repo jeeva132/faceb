@@ -1,0 +1,8 @@
+@import "./scss/base-colors.scss";
+
+.app {
+  background-color: $backgroundColor;
+  &__body {
+    display: flex;
+  }
+}
